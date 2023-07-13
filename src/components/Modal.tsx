@@ -16,7 +16,12 @@ function Modal({ children, open, onClose }: Props) {
     <div className={`${styles.modal}`}>
       <AiOutlineClose
         onClick={onClose}
-        style={{ color: "white", fontSize: "1.5rem", margin: "2rem 0 0 2rem" }}
+        style={{
+          color: "white",
+          fontSize: "1.5rem",
+          margin: "2rem 0 0 2rem",
+          cursor: "pointer",
+        }}
       />
       {children}
     </div>,
