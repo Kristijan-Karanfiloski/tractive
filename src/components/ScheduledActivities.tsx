@@ -28,7 +28,7 @@ function ScheduledActivities() {
       <h2 className={`mx-2 ${styles.h2}`}>Scheduled Activities</h2>
 
       {activities.length === 0 ? (
-        <p>You don't have any activities scheduled yet.</p>
+        <p>You don't have any activities scheduled yet FUCKER.</p>
       ) : (
         Object.entries(activitiesByDate).map(([date, activities], index) => (
           <div key={index}>
