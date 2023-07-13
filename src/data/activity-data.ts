@@ -15,7 +15,7 @@ const activities: Activity[] = [
   {
     title: "Hiking",
     text: "TOREY PINES",
-    img: "src/assets/images/activity-2.png",
+    img: "../../public/images/activity-2.png",
     icon: "src/assets/icons-filled/icon-hiking-filled.png",
   },
   {
