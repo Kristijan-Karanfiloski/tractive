@@ -1,0 +1,160 @@
+
+.header{
+    font-size: 30px;
+    font-weight:bold;
+    color:#FFFFFF;
+    margin-top: 3rem;
+}
+
+.activityForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.activityIcon{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    border: none;
+    border-radius:50%;
+    padding: 0.5rem;
+    background: #FFFFFF;
+}
+.iconActive {
+    background:  #D97D54;
+}
+
+.activityIcon{
+    display: flex;
+}
+
+.activityIcon img{
+    border-radius: 50%;
+}
+
+.containerInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.containerInput> label{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.container1{
+    display: flex;
+}
+
+
+.searchBtn {
+    border: none;
+    cursor: pointer;
+    background-color: #D97D54;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: auto;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customSelect>input{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    /*color: #6E8CA0;*/
+}
+
+.customSelect>input::placeholder {
+    color: #6E8CA0;
+    font-size: 14px;
+}
+
+
+
+.customSelect{
+    position: relative;
+    display:block;
+    width:280px;
+}
+
+.customSelect select {
+    appearance: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6E8CA0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 7px 10px;
+    width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.scheduleBtn{
+    border:1px solid #87BCBF;
+    font-size: 14px;
+    padding: 18px 20px;
+    background-color: #C8D1D3;
+    color: #FFFFFF;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 90%;
+    margin-top: 11rem;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+    .containerInput{
+        padding-left: 3rem;
+    }
+    .customSelect{
+        width: 500px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .customSelect{}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .containerInput{
+        padding-left: 5rem;
+    }
+    .customSelect{
+        width:  700px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .containerInput{
+        padding-left: 7rem;
+    }
+    .customSelect{
+       width:  1000px;
+    }
+}
+

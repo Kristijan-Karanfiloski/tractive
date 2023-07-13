@@ -1,0 +1,36 @@
+.button {
+	font-size: 0.9rem;
+	border: none;
+	background: #d97d54;
+	color: white;
+	border-radius: 25px;
+	padding: 0.6rem;
+	cursor: pointer;
+	transition: box-shadow 0.9s ease-in-out;
+}
+
+.button:active {
+	transform: scale(0.98);
+}
+
+.p {
+	color: #6e8ca0;
+	font-size: 0.9rem;
+}
+
+.h2 {
+	color: #1b1c20;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.h3 {
+	font-size: 0.9rem;
+	color: #6e8ca0;
+}
+
+.p {
+	font-size: 1.1rem;
+	color: #1b1c20;
+	font-weight: bold;
+}

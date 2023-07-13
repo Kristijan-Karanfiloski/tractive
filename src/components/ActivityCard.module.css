@@ -1,0 +1,36 @@
+.cardStyle {
+    width: 8rem;
+    box-shadow: 0 10px 15px #1B1C201A;
+    border-radius: 15px;
+}
+
+.iconStyle {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3rem;
+    height:3rem;
+    background-color: white;
+    padding: .60rem;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px #42596529;
+}
+
+
+.h5{
+    /*border:1px solid red;*/
+    font-size: .9rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #334856;
+    font-weight: bold;
+}
+
+.p{
+    font-family: 'Rift Soft',sans-serif;
+    font-size: .6rem;
+    color: #7D8184;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
