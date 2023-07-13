@@ -9,7 +9,7 @@ const activities: Activity[] = [
   {
     title: "Surfing",
     text: "OCEAN BEACH",
-    img: "../../public/images/activity-1.png",
+    img: "../../public/activity-1.png",
     icon: "src/assets/icons-filled/icon-surfing-filled.png",
   },
   {
