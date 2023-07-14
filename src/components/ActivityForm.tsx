@@ -21,20 +21,20 @@ const ActivityForm = () => {
   //////////////////////////////////////////////////////////////////////////////////////////////
   const iconPaths = {
     [Activity.Spinning]: {
-      default: "src/assets/icons-filled/icon-spinning-filled.png",
-      active: "src/assets/icons-light/icon-spinning-light.png",
+      default: "/icon-spinning-filled.png",
+      active: "/icon-spinning-light.png",
     },
     [Activity.Surfing]: {
-      default: "src/assets/icons-filled/icon-surfing-filled.png",
-      active: "src/assets/icons-light/icon-surfing-light.png",
+      default: "/icon-surfing-filled.png",
+      active: "/icon-surfing-light.png",
     },
     [Activity.Weights]: {
-      default: "src/assets/icons-filled/icon-weights-filled.png",
-      active: "src/assets/icons-light/icon-weights-light.png",
+      default: "/icon-weights-filled.png",
+      active: "/icon-weights-light.png",
     },
     [Activity.Hiking]: {
-      default: "src/assets/icons-filled/icon-hiking-filled.png",
-      active: "src/assets/icons-light/icon-hiking-light.png",
+      default: "/icon-hiking-filled.png",
+      active: "/icon-hiking-light.png",
     },
   };
 
@@ -116,10 +116,7 @@ const ActivityForm = () => {
                 </select>
               </div>
               <button className={styles.searchBtn} type="button">
-                <img
-                  src="src/assets/icons-light/icon-dropdown-light.png"
-                  alt="dropdown"
-                />
+                <img src="/icon-dropdown-light.png" alt="dropdown" />
               </button>
             </div>
           </div>
@@ -146,10 +143,7 @@ const ActivityForm = () => {
                 />
               </div>
               <button className={styles.searchBtn} type="button">
-                <img
-                  src="src/assets/icons-light/icon-search-light.png"
-                  alt="search"
-                />
+                <img src="/icon-search-light.png" alt="search" />
               </button>
             </div>
           </div>
