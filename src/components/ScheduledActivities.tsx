@@ -6,14 +6,14 @@ import { groupBy } from "lodash";
 import useActivityStore, {
   ActivityItems,
 } from "../store/scheduledActivityStore.ts";
+import { DateTime } from "luxon";
 
 function ScheduledActivities() {
   const { activities, setModalOpen, modalOpen } = useActivityStore();
 
   const activitiesByDate = groupBy<ActivityItems>(
     activities,
-    (activity: ActivityItems) =>
-      new Date(activity.datetime).toLocaleDateString()
+    (activity: ActivityItems) => DateTime.fromISO(activity.datetime).toISODate()
   );
 
   return (
@@ -26,13 +26,13 @@ function ScheduledActivities() {
         Object.entries(activitiesByDate).map(([date, activities], index) => (
           <div key={index}>
             <h3 className={styles.h3}>
-              {new Date(date).toLocaleDateString(undefined, {
+              {DateTime.fromISO(date).toLocaleString({
                 day: "numeric",
                 month: "long",
               })}
             </h3>
             <p className={styles.p}>
-              {new Date(date).toLocaleDateString(undefined, {
+              {DateTime.fromISO(date).toLocaleString({
                 weekday: "long",
               })}
             </p>

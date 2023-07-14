@@ -55,7 +55,7 @@ const ActivityForm = () => {
         icon: iconPaths[activeIcon]?.default,
         duration: data.duration,
         selectOption: data.selectOption,
-        datetime: data.datetime,
+        datetime: new Date(data.datetime).toISOString(),
       };
 
       addActivity(result);
