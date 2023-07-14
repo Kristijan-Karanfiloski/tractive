@@ -21,13 +21,13 @@ const activities: Activity[] = [
   {
     title: "Weights",
     text: "ENCINITAS",
-    img: "src/assets/images/activity-3.png",
+    img: "/activity-3.png",
     icon: "src/assets/icons-filled/icon-weights-filled.png",
   },
   {
     title: "Spinning",
     text: "GYM",
-    img: "src/assets/images/activity-4.png",
+    img: "/activity-4.png",
     icon: "src/assets/icons-filled/icon-spinning-filled.png",
   },
 ];
