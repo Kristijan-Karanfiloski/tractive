@@ -10,25 +10,25 @@ const activities: Activity[] = [
     title: "Surfing",
     text: "OCEAN BEACH",
     img: "/activity-1.png",
-    icon: "src/assets/icons-filled/icon-surfing-filled.png",
+    icon: "/icon-surfing-filled.png",
   },
   {
     title: "Hiking",
     text: "TOREY PINES",
     img: "/activity-2.png",
-    icon: "src/assets/icons-filled/icon-hiking-filled.png",
+    icon: "/icon-hiking-filled.png",
   },
   {
     title: "Weights",
     text: "ENCINITAS",
     img: "/activity-3.png",
-    icon: "src/assets/icons-filled/icon-weights-filled.png",
+    icon: "/icon-weights-filled.png",
   },
   {
     title: "Spinning",
     text: "GYM",
     img: "/activity-4.png",
-    icon: "src/assets/icons-filled/icon-spinning-filled.png",
+    icon: "/icon-spinning-filled.png",
   },
 ];
 

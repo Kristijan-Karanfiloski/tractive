@@ -7,13 +7,6 @@ import useActivityStore, {
   ActivityItems,
 } from "../store/scheduledActivityStore.ts";
 
-// interface Activity {
-// 	activity: string;
-// 	icon: string;
-// 	duration: string;
-// 	datetime: string;
-// }
-
 function ScheduledActivities() {
   const { activities, setModalOpen, modalOpen } = useActivityStore();
 
@@ -61,11 +54,7 @@ function ScheduledActivities() {
           onClick={() => setModalOpen(true)}
           className={`${styles.button}`}
         >
-          <img
-            src="src/assets/icons-filled/icn_plus.png"
-            alt="icon"
-            style={{ marginRight: "8px" }}
-          />
+          <img src="/icn_plus.png" alt="icon" style={{ marginRight: "8px" }} />
           SCHEDULE ACTIVITY
         </button>
       </div>
