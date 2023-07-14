@@ -9,13 +9,13 @@ const activities: Activity[] = [
   {
     title: "Surfing",
     text: "OCEAN BEACH",
-    img: "../../public/activity-1.png",
+    img: "/activity-1.png",
     icon: "src/assets/icons-filled/icon-surfing-filled.png",
   },
   {
     title: "Hiking",
     text: "TOREY PINES",
-    img: "../../public/images/activity-2.png",
+    img: "/activity-2.png",
     icon: "src/assets/icons-filled/icon-hiking-filled.png",
   },
   {
